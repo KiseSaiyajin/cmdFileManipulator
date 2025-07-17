@@ -58,9 +58,9 @@ public class Main {
             for (Object value : dataForInput) {
                 bw.write(value.toString() + "\n");
             }
-            System.out.println("Data appended successfully.");
+            
         } catch (IOException e) {
-            System.err.println("Error appending data: " + e.getMessage());
+            System.err.println("Ошибка при добавлении данных: " + e.getMessage());
         }
     }
 
