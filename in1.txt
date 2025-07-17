@@ -1,4 +1,5 @@
-Lorem ipsum dolor sit amet 45
+Lorem ipsum dolor sit amet 
+45
 Пример
 3.1415
 consectetur adipiscing
