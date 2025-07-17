@@ -88,6 +88,8 @@ java -jar .\target\cmdFileManipulator-1.0-SNAPSHOT.jar [опции] in1.txt in2.
 ```
 java -jar .\target\cmdFileManipulator-1.0-SNAPSHOT.jar in1.txt in2.txt -s -o "C:\Users\MyPc\Downloads"
 ```
+### Особенности
+Использовал библиотеку Apache Commons CLI. С ней работа с коммандной строкой стала проще.
 ## Автор
 Рафаэль Толстомиров
 
