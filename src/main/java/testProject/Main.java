@@ -285,9 +285,9 @@ public class Main {
                 if (file.exists()) {
                     try {
                         Files.delete(Path.of(filePath));
-                        System.out.println("File deleted successfully: " + filePath);
+                        
                     } catch (IOException e) {
-                        System.err.println("Error deleting file: " + e.getMessage());
+                        System.err.println("Ошибка при удалении файла: " + e.getMessage());
                     }
                 }
             }
